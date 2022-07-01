@@ -23,10 +23,10 @@ const greeting = {
   username: "Rylee George",
   title: "Hi all, I'm Rylee",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web apps with JavaScript / Vue / Nodejs / Tauri and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 experience in building Web apps with JavaScript / Vue / Nodejs / Tauri and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/17CSfj-in36RkPs_nGs02McFPxATggHWR/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -97,10 +97,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "golang",
-      fontAwesomeClassname: "fab fa-golang"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
@@ -153,11 +149,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Unspecified",
+      role: "Intern",
       company: "Victoria University",
       companylogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiHEd9Na3-UILBNkh2rYCEvWiT0EdI_du2KBgzVIM2xatkeiiLXb92ZS_jqdblPEOh2pc&usqp=CAU",
       date: "September 2021 – November 2021",
       desc: "Completed a work intergated learning internship with the VU intergrations team. Working with MuleSoft"
+    },
+    {
+      role: "Intern",
+      company: "SummerTech LIVE 2021",
+      companylogo: "https://www.victorianchamber.com.au/cdn/75smxmi0pe880404/850",
+      date: "Novemver 2021 – February 2022",
+      desc: "Participated in the SummerTech LIVE 2021 program. Working with RugsPlus on there Shopify website"
     }
   ]
 };
@@ -196,6 +199,17 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://github.com/TechFortress/GriefPrevention/"
+        }
+      ]
+    },
+    {
+      image: "https://avatars.githubusercontent.com/u/108177339?s=400&u=727f3f25294d190a4b9680713e501286896bbacc&v=4",
+      projectName: "Apollo - Orpheus - Eurydice",
+      projectDesc: "Me being fed up with subsonic API and clients. So I am making my own. Eurydice is the android app. Apollos is the server. Orpheus the windows client",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/Ortygia"
         }
       ]
     }
