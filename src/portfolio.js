@@ -204,8 +204,8 @@ const bigProjects = {
     },
     {
       image: "https://avatars.githubusercontent.com/u/108177339?s=400&u=727f3f25294d190a4b9680713e501286896bbacc&v=4",
-      projectName: "Apollo - Orpheus - Eurydice",
-      projectDesc: "Me being fed up with subsonic API and clients. So I am making my own. Eurydice is the android app. Apollos is the server. Orpheus the windows client",
+      projectName: "Deaftone - Orpheus - Eurydice",
+      projectDesc: "Me being fed up with subsonic API and clients. So I am making my own. Eurydice is the android app. Deaftone is the server. Orpheus the windows client",
       footerLink: [
         {
           name: "Visit Website",
