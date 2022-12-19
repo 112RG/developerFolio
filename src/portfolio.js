@@ -50,7 +50,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly scalable applications"
     ),
-    emoji("⚡ Creating microservices"),
+    emoji("⚡ Lightning fast performance"),
     emoji(
       "⚡ Uses of tools such as MongoDB, Redis, MYSQL"
     )
@@ -93,8 +93,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Rust",
+      fontAwesomeClassname: "fab fa-rust"
     },
     {
       skillName: "docker",
@@ -180,6 +180,17 @@ const bigProjects = {
   subtitle: "Some fun projects I worked on",
   projects: [
     {
+      image: "https://avatars.githubusercontent.com/u/108177339?s=400&u=727f3f25294d190a4b9680713e501286896bbacc&v=4",
+      projectName: "Deaftone - Orpheus - Eurydice",
+      projectDesc: "Me being fed up with subsonic API and clients. So I am making my own. Eurydice is the android app. Deaftone is the server. Orpheus the windows client",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/Ortygia"
+        }
+      ]
+    },
+    {
       image: "https://avatars.githubusercontent.com/u/69072421?s=400&u=2a6fa273095bae5fdb444d38146da056b3aba253&v=4",
       projectName: "GhostStorm",
       projectDesc: "A large microservice Discord bot",
@@ -199,17 +210,6 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://github.com/TechFortress/GriefPrevention/"
-        }
-      ]
-    },
-    {
-      image: "https://avatars.githubusercontent.com/u/108177339?s=400&u=727f3f25294d190a4b9680713e501286896bbacc&v=4",
-      projectName: "Deaftone - Orpheus - Eurydice",
-      projectDesc: "Me being fed up with subsonic API and clients. So I am making my own. Eurydice is the android app. Deaftone is the server. Orpheus the windows client",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://github.com/Ortygia"
         }
       ]
     }
@@ -338,7 +338,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "ryleegeorge1@gmail.com"
 };
 
 // Twitter Section
